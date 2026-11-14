@@ -1,11 +1,9 @@
 // Food picture entry (Node 22, standard library only): the picture is the
-// entry.png beside this file (a wood-fired pepperoni pizza with a long
-// molten cheese pull stretching diagonally across the frame, cupped crispy
-// pepperoni, blistered crust, fresh basil, steam rising, golden light
-// against a dark moody background), and the program copies it to
+// entry.png beside this file (a glossy ramen bowl with a dramatic noodle
+// lift, a jammy orange yolk, caramelized chashu, steam rising, rich broth
+// glistening under warm light), and the program copies it to
 // /output/entry.png. The judge sees exactly the bytes copied.
 // Deterministic: both runs copy the same bytes, so the two grader runs match.
-// v2: the pizza image replaces the burger; the copy logic is unchanged.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
