@@ -5,6 +5,7 @@
 // against a dark moody background), and the program copies it to
 // /output/entry.png. The judge sees exactly the bytes copied.
 // Deterministic: both runs copy the same bytes, so the two grader runs match.
+// v2: the pizza image replaces the burger; the copy logic is unchanged.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
