@@ -3,6 +3,7 @@
 // dripping down charred patties on a glossy sesame brioche bun, steam
 // rising, dark slate background), and the program copies it to
 // /output/entry.png. The judge sees exactly the bytes copied.
+// Deterministic: both runs copy the same bytes.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
